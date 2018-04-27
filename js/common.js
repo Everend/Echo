@@ -38,7 +38,7 @@
     $('header div').tap(function(){
         showMenu();
     });
-    $('.cover, .menu div').tap(function(){
+    $('.cover, .menu div, .menu p').tap(function(){
         hideMenu();
     });
     $('.spread').tap(function(){
