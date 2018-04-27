@@ -1,0 +1,106 @@
+header{
+    height: 45.5rem;
+    background-image: url(../img/header-repute.png);
+}
+header h1{
+    margin-top: 4.7rem;
+}
+.menu li.repute{
+    font-weight: bold;
+    color: white;
+}
+.case{
+    height: 48rem;
+}
+h2, h3{
+    text-align: center;
+}
+h2{
+    margin-top: 3.4rem;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    color: #333333;
+}
+h3{
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #666666;
+}
+.firm{
+    margin-top: 3.2rem;
+    width: 163rem;
+}
+.firm li{
+    float: left;
+    padding-right: 1.2rem;
+    width: 30.2rem;
+    height: 34.6rem;
+}
+.firm li:first-child{
+    padding-left: 3.6rem;
+}
+.firm li:last-child{
+    padding-right: 3.6rem;
+}
+.firm li img{
+    display: block;
+    width: 30.2rem;
+    height: 21.3rem;
+}
+.firm li div{
+    width: 30rem;
+    height: 13.2rem;
+    border: 0.1rem solid #eaeaea;
+    border-top-width: 0;
+    overflow: hidden; 
+}
+.firm li div h4, .firm li div p{
+    margin-left: 2.3rem;
+}
+.firm li div h4{
+    margin-top: 2.1rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: #333333;
+}
+.firm li div p{
+    margin-top: 0.9rem;
+    width: 25.9rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.directory{
+    position: relative;
+    height: 41rem;
+    background-color: #ebf0f7;
+}
+.directory h2{
+    margin-top: 3.1rem;
+}
+.directory h3{
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.logo{
+    margin-top: 2.6rem;
+}
+.logo li div{
+    width: 34.3rem;
+    height: 25.4rem;
+    background-image: url(../img/repute-directory1.png);
+}
+.logo .after{
+    background-image: url(../img/repute-directory2.png);
+}
+.logo .before{
+    background-image: url(../img/repute-directory3.png);
+}
+.location{
+    bottom: 2.8rem;
+}
+.location li{
+    background-color: white;
+}

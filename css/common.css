@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+em{
+    display: inline-block;
+}
+/* 页头、各部分div、页尾 */
+header, .part, footer{
+    width: 100%;
+    overflow: hidden;
+}
+/* 页头 */
+header{
+    position: relative;
+}
+header, header em{
+    background-size: cover;
+}
+header div{
+    width: 6.4rem;
+    height: 5.7rem;
+}
+header div em{
+    margin-top: 2rem;
+    margin-left: 2.1rem;
+    width: 2.2rem;
+    height: 1.7rem;
+    background-image: url(../img/common-menu.png);
+}
+header div+em{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.7rem;
+    width: 8.3rem;
+    height: 2.6rem;
+    background-image: url(../img/common-logo.png);
+}
+header h1, header p{
+    margin-left: 2.3rem;
+    color: white;
+}
+header h1{
+    line-height: 2.6rem;
+    letter-spacing: 0.1rem;
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+header p{
+    opacity: 0.65;
+    margin-top: 0.4rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+/* 覆盖用div、左侧菜单 */
+.cover, .menu{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    height: 100%;
+}
+.cover{
+    display: none;
+    opacity: 0;
+    width: 100%;
+    background-color: black; 
+}
+.menu{
+    left: -21.3rem;
+    width: 21.3rem;
+    background-color: #3b3e43;
+}
+.menu div{
+    width: 5.8rem;
+    height: 5rem;
+}
+.menu div em{
+    margin-top: 1.7rem;
+    margin-left: 2.1rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(../img/common-close.png);
+    background-size: cover;
+}
+.menu ul{
+    margin-top: 1.1rem;
+    margin-left: 2.2rem;
+}
+.menu li{
+    position: relative;
+    margin-bottom: 0.6rem;
+    height: 5.1rem;
+    line-height: 5.1rem;
+    font-size: 1.7rem;
+    color: #d4d4d4;
+}
+.menu li.folded{
+    display: none;
+    margin-left: 2.5rem;
+    color: #9a9a9a;
+}
+.menu li em{
+    opacity: 0.5;
+    position: absolute;
+    top: 1.9rem;
+    right: 1.9rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-image: url(../img/common-toggle.png);
+    background-size: cover;
+}
+.menu p{
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    width: 2rem;
+    height: 100%;
+}
+/* 选项列表 */
+.item{
+    position: absolute;
+    width: 100%;
+    height: 4.9rem;
+    background-color: white; 
+    box-shadow: 0 0.1rem 0 0 rgba(222,222,222,0.5);
+}
+.fixed{
+    position: fixed;
+    z-index: 2;
+    top: 0!important;
+    background-color: white;
+}
+.item ul{
+    margin: auto; 
+    width: 31.6rem;
+}
+.item li{
+    position: relative;
+    float: left;
+    margin-right: 5.9rem;
+    width: 6.6rem;
+    height: 4.9rem;
+    line-height: 4.9rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #666666;
+}
+.item li:last-child{
+    margin-right: 0;
+}
+.item li em{
+    display: none;
+    position: absolute;
+    bottom: -0.1rem;
+    left: 2.3rem;
+    width: 1.8rem;
+    height: 0.2rem;
+}
+.item .current2{
+    display: inline-block;
+}
+/* 标题、横线 */
+.title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333333;
+}
+.line{
+    display: block;
+    margin: 1.7rem auto 0;
+    width: 2.2rem;
+    height: 0.1rem;
+    background-color: #d9d9d9;
+}
+/* 企业标志和位置显示 */
+.logo{
+    margin-left: -37.5rem;
+    width: 112.5rem;
+    overflow: hidden;
+}
+.logo li{
+    float: left;
+    width: 37.5rem;
+}
+.logo li div{
+    margin: auto;
+    background-size: cover;
+}
+.location{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5.2rem;
+}
+.location li{
+    float: left;
+    margin-right: 0.8rem;
+    width: 1.2rem;
+    height: 0.4rem;
+}
+.location li:last-child{
+    margin-right: 0;
+}
+.location .active{
+    background-color: #535353;
+}
+/* 页尾 */
+footer{
+    text-align: center;
+    background-color: #3b3e43;
+}
+footer h2{
+    margin-top: 1.55rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #bbbbbb;
+}
+footer h3{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+}
+footer p{
+    height: 4.9rem;
+    line-height: 3.8rem;
+    font-size: 1.2rem;
+    color: #797b7f;
+    border-top: 0.1rem solid #4c4c4c;
+}

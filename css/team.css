@@ -1,0 +1,375 @@
+header{
+    height: 23.8rem;
+    background-image: url(../img/header-team.png);
+}
+header h1{
+    margin-top: 5.1rem;
+}
+.menu li.team{
+    font-weight: bold;
+    color: white;
+}
+.item{
+    top: 23.8rem;
+}
+.item .current1{
+    color: #ee6121;
+}
+.item li em{
+    background-color: #ee6121;
+}
+.intro, .way, .joinus{
+    display: none;
+    margin-top: 5rem;
+}
+.current3{
+    display: block;
+}
+.intro{
+    height: 171rem;
+}
+.member{
+    margin: 1.2rem auto;
+    width: 35.5rem;
+}
+.member li{
+    width: 35.5rem;
+    height: 17rem;
+    background-image: url(../img/team-member1.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.member li:nth-child(2){
+    background-image: url(../img/team-member2.png);
+}
+.member li:nth-child(3){
+    background-image: url(../img/team-member3.png);
+}
+.member li:nth-child(4){
+    background-image: url(../img/team-member4.png);
+}
+.member li h2, .member li p{
+    margin-left: 18.6rem;
+}
+.member li h2{
+    margin-top: 2.7rem;
+    font-size: 2rem;
+    color:#333333;
+}
+.member li p{
+    margin-top: 0.4rem;
+    width: 14.4rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #666666;
+}
+.member li:nth-child(even) h2, .member li:nth-child(even) p{
+    margin-left: 2.9rem;
+}
+.member li p em{
+    display: block;
+    margin: 1.7rem 0;
+    width: 2.3rem;
+    height: 0.1rem;
+    background-color: #bcbcbc;
+}
+.event, .env{
+    position: relative;
+    width: 100%;
+}
+.event{
+    height:50rem;
+}
+.env{
+    height: 50.6rem;
+}
+.event div, .env div{
+    width: 100%;
+    height: 30.4rem;
+    text-align: center;
+    color: #333333;
+    overflow: hidden;
+}
+.event div{
+    background-color: #e8e5dd;
+}
+.env div{
+    background-color: #e1e6ec;
+}
+.event div h2, .env div h2{
+    margin-top: 4.1rem;
+    font-size: 1.9rem;
+}
+.event div p, .env div p{
+    opacity: 0.75;
+    margin: 2rem auto;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+}
+.event ul, .env ul{
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 35.5rem;
+}
+.event li, .env li{
+    float: left;
+    margin-right: 0.1rem;
+    background-size: cover;
+}
+.event li{
+    width: 18.6rem;
+    height: 16.1rem;
+    background-image: url(../img/team-event1.png);
+}
+.event li:nth-child(2){
+    margin-right: 0;
+    width: 16.8rem;
+    background-image: url(../img/team-event2.png);
+}
+.event li:nth-child(3), .event li:nth-child(4), .event li:nth-child(5){
+    margin-top: 0.1rem;
+    width: 11.8rem;
+    height: 11.4rem;
+}
+.event li:nth-child(3){
+    background-image: url(../img/team-event3.png);
+}
+.event li:nth-child(4){
+    background-image: url(../img/team-event4.png);
+}
+.event li:nth-child(5){
+    margin-right: 0;
+    width: 11.7rem;
+    background-image: url(../img/team-event5.png);
+}
+.env li{
+    width: 17em;
+    height: 14rem;
+    background-image: url(../img/team-env1.png);
+}
+.env li:nth-child(2), .env li:nth-child(4){
+    margin-right: 0;
+    width: 18.4rem;
+}
+.env li:nth-child(2){
+    background-image: url(../img/team-env2.png);
+}
+.env li:nth-child(3),.env li:nth-child(4){
+    margin-top: 0.1rem;
+    height: 14.1rem;
+}
+.env li:nth-child(3){
+    background-image: url(../img/team-env3.png);
+}
+.env li:nth-child(4){
+    background-image: url(../img/team-env4.png);
+}
+.way{
+    height: 180.2rem;
+}
+.way div{
+    height: 22.7rem;
+    overflow: hidden;
+}
+.way h2{
+    margin-top: 3.9rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #333333;
+}
+.way div p{
+    margin: 2rem auto 0;
+    width: 32.5rem;
+    line-height: 2.1rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+.plan>li{
+    width: 100%;
+    height: 53rem;
+    background-size: cover;
+    overflow: hidden;
+}
+.plan>li:nth-child(1){
+    height: 51.5rem;
+    background-image: url(../img/team-plan1.png);
+}
+.plan>li:nth-child(2){
+    background-image: url(../img/team-plan2.png);
+}
+.plan>li:nth-child(3){
+    background-image: url(../img/team-plan3.png);
+}
+.plan li h2{
+    margin-top: 3.7rem;
+}
+.plan li p{
+    margin: 2.3rem auto 0;
+    width: 32.2rem;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    color: #666666;
+}
+.plan ul{
+    margin: 3rem auto 0;
+    width: 35.5rem;
+}
+.plan li:nth-child(2) ul{
+    margin-top: 2.1rem;
+}
+.plan li:nth-child(3) ul{
+    margin-top: 2.3rem;
+}
+.plan ul li{
+    float: left;
+    width: 17.1rem;
+    height: 14.5rem;
+    background-size: cover;
+}
+.plan ul li:nth-child(1){
+    margin-right: 0.1rem;
+    background-image: url(../img/team-sprak1.png);
+}
+.plan ul li:nth-child(2){
+    width: 18.3rem;
+    height: 28.1rem;
+    background-image: url(../img/team-sprak2.png);
+}
+.plan ul li:nth-child(3){
+    margin-top: -13.5rem;
+    height: 13.5rem;
+    background-image: url(../img/team-sprak3.png);
+}
+.plan .torch li:nth-child(1){
+    background-image: url(../img/team-torch1.png);
+}
+.plan .torch li:nth-child(2){
+    height: 28.3rem;
+    background-image: url(../img/team-torch2.png);
+}
+.plan .torch li:nth-child(3){
+    margin-top: -13.7rem;
+    height: 13.7rem;
+    background-image: url(../img/team-torch3.png);
+}
+.plan .flame li:nth-child(1){
+    height: 14rem;
+    background-image: url(../img/team-flame1.png);
+}
+.plan .flame li:nth-child(2){
+    background-image: url(../img/team-flame2.png);
+}
+.plan .flame li:nth-child(3){
+    margin-top: -14rem;
+    height: 14rem;
+    background-image: url(../img/team-flame3.png);
+}
+.joinus{
+    height: 123.1rem;
+}
+.wanted{
+    width: 100%;
+    height: 22.5rem;
+    overflow: hidden;
+}
+.wanted h2{
+    margin-top: 4.1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+.wanted p{
+    margin: 3.1rem auto 0;
+    width: 31.2rem;
+    line-height: 2.1rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+.joinus>ul>li{
+    position: relative;
+    height: 28.3rem;
+    background-color: #ffb800;
+    overflow: hidden;
+}
+.joinus>ul>li:nth-child(2){
+    height: 27.1rem;
+    background-color: #b368f7;
+}
+.joinus>ul>li:nth-child(3){
+    background-color: #76ca48;
+}
+.joinus>ul>li img{
+    position: absolute;
+    top: 4.5rem;
+    left: 1.2rem;
+    width: 16.3rem;
+}
+.joinus>ul>li:nth-child(2) img{
+    top: 6.9rem;
+    left: auto;
+    right: 2.8rem;
+    width: 17.3rem;
+}
+.joinus>ul>li:nth-child(3) img{
+    top: 4.8rem;
+    left: 1.7rem;
+    width: 16.8rem;
+}
+.joinus>ul>li h2{
+    margin-top: 6.7rem;
+    margin-left: 18.7rem;
+    font-size: 2rem;
+    color: #333333;
+}
+.joinus>ul>li:nth-child(2) h2{
+    margin-top: 7.1rem;
+    margin-left: 4.4rem;
+}
+.joinus>ul>li:nth-child(3) h2{
+    margin-top: 9.3rem;
+}
+.sort{
+    margin-top: 1.4rem;
+    margin-left: 18.6rem;
+}
+.joinus>ul>li:nth-child(2) .sort{
+    margin-left: 4.3rem;
+}
+.sort li{
+    position: relative;
+    height: 2.4rem;
+    text-indent: 1.4rem;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+.sort em{
+    position: absolute;
+    top: 0.85rem;
+    left: 0;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #769e6f;
+    border-radius: 100%;
+}
+.joinus>ul>li:nth-child(2) em{
+    background-color: #669eff;
+}
+.joinus>ul>li:nth-child(3) em{
+    background-color: #fdd61d;
+}
+.resume{
+    width: 100%;
+    height: 16.9rem;
+}
+.resume p{
+    margin-top: 3.6rem;
+    margin-left: 2.7rem;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    color: #666666;
+}

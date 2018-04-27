@@ -1,0 +1,344 @@
+header{
+    height: 23.5rem;
+    background-image: url(../img/header-service.png);
+}
+header h1{
+    margin-top: 4.7rem;
+}
+.menu li.service{
+    font-weight: bold;
+    color: white;
+}
+.item{
+    top: 23.5rem;
+}
+.item .current1{
+    color: #0f79e6;
+}
+.item li em{
+    background-color: #0f79e6;
+}
+.one{
+    position: absolute;
+    margin-top: 5rem; 
+    width: 100%;
+    height: 17.7rem;
+}
+h2{
+    margin-top: 3.9rem;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #333333;
+}
+h2 strong{
+    color:#ff6000;
+}
+p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+.one p{
+    margin-top: 2.7rem;
+    margin-left: 8.4rem;
+    width: 24.7rem;
+}
+.one img{
+    position: absolute;
+    z-index: 1;
+    top: 10.8rem;
+    left: 1.8rem;
+    width: 10.9rem;
+}
+.two, .three, .four, .five{
+    width: 100%;
+    overflow: hidden;
+}
+.two{
+    position: relative;
+    margin-top: 22.7rem;
+    height: 40rem;
+    background-color: #5739f4;
+}
+.two h2, .two h3, .two p{
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+}
+.two h3, .two p{
+    margin-left: 2.1rem;
+}
+.two h3{
+    margin-top: 3.9rem;
+}
+.two p{
+    opacity: 0.75;
+    margin-top: 1.6rem;
+    width: 19.8rem;
+}
+.two h3:nth-of-type(2), .two p:nth-of-type(2){
+    margin-left: 15.6rem;
+}
+.two img{
+    position: absolute;
+    top: 9.7rem;
+}
+.two .two1{
+    right: 3rem;width: 11.1rem;
+}
+.two .two2{
+    top: 24.3rem;left: 1rem;width: 14.2rem;transform: scale(0.9);
+}
+.two .two3{
+    right: 2.5rem;width: 11.7rem;
+}
+.two .two4{
+    top: 24.8rem;left: 3rem;width: 10.6rem;
+}
+.two .two5{
+    right: 2rem;width: 12.8rem;
+}
+.two .two6{
+    top: 22.3rem;left: 0.4rem;width: 17rem;transform: scale(0.8);
+}
+.three{
+    position: relative;
+    height: 43.6rem;
+}
+.three em{
+    position: absolute;
+    z-index: -1;
+    top: 9.3rem;
+    left: 6rem;
+    width: 0.1rem;
+    height: 30.8rem;
+    background-color: #d8d8d8; 
+}
+.circle{
+    margin-top: 5em;
+    margin-left: 3.5rem;
+}
+.circle li{
+    margin-bottom: 6.1rem;
+    width: 5.2rem;
+    height: 5.2rem;
+    background-image: url(../img/service-three1.png);
+    background-size: cover;
+}
+.circle li:nth-child(2){
+    background-image: url(../img/service-three2.png);
+}
+.circle li:nth-child(3){
+    background-image: url(../img/service-three3.png);
+}
+.content{
+    position: absolute;
+    top: 10.8rem;
+    left: 10rem;
+}
+.content li{
+    position: absolute;
+    width: 25.5rem;
+}
+.content li:nth-child(2){
+    top: 11.3rem;
+}
+.content li:nth-child(3){
+    top: 22.6rem;
+}
+.content li h3{
+    font-size: 1.5rem;
+    color: #333333;
+}
+.content li p{
+    margin-top: 0.7rem;  
+    width: 25.5rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+.four{
+    height: 35rem;
+    background-color: #16aab9;
+}
+.four h2, .four h3, .four p{
+    color: white;
+}
+.four h2{
+    margin-top: 3.9rem;
+}
+.four ul{
+    position: relative;
+    margin: 3.7rem auto 0;
+    width: 33.5rem;
+}
+.four li{
+    position: absolute;
+    width: 15.5rem;
+    height: 9.9rem;
+    background-repeat: no-repeat;
+    background-size: 4rem;
+}
+.four li:nth-child(2),.four li:nth-child(4){
+    left: 18rem;
+}
+.four li:nth-child(3), .four li:nth-child(4){
+    top: 12.6rem;
+}
+.four .four1{
+    background-image: url(../img/service-four1.png);
+}
+.four .four2{
+    background-image: url(../img/service-four2.png);
+}   
+.four .four3{
+    background-image: url(../img/service-four3.png);
+}
+.four .four4{
+    background-image: url(../img/service-four4.png);
+}
+.four .four5{
+    background-image: url(../img/service-four5.png);
+    background-size: 4.1rem;
+}
+.four .four6{
+    background-image: url(../img/service-four6.png);
+    background-size: 4.1rem;
+}
+.four .four7, .four .four9{
+    background-image: url(../img/service-four7.png);
+    background-size: 4.2rem;
+}
+.four .four8{
+    background-position-x: 0.4rem;
+    background-image: url(../img/service-four8.png);
+    background-size: 3.8rem;
+}
+.four .four10{
+    background-image: url(../img/service-four9.png);
+    background-size: 4.4rem;
+}
+.four .four11{
+    background-position-x: 0.4rem;
+    background-image: url(../img/service-four10.png);
+    background-size: 3.8rem;
+}
+.four .four12{
+    background-position-x: 1rem;
+    background-image: url(../img/service-four11.png);
+    background-size: 3.1rem;
+}
+.four li h3, .four li p{
+    margin-left: 5rem;
+}
+.four li p{
+    opacity: 0.75;
+    margin-top: 0.4rem;
+    width: 10.5rem;
+}
+.five{
+    display: none;
+}
+.show{
+    display: block;
+}
+.five1{
+    height: 38.9rem;
+}
+.five1 p{
+    margin: 2.1rem auto 0;
+    width: 32.2rem;
+    font-size: 1.4rem;
+    color: #666666;
+}
+.five1 img{
+    display: block;
+    margin: 3rem auto 0;
+    width: 32.8rem;
+}
+.five2{
+    height: 73.2rem;
+}
+.five2 ul{
+    margin: 5rem auto 0;
+    width: 32.6rem;
+}
+.five2 li{
+    position: relative;
+    height: 12em;
+    overflow: hidden;
+}
+.five2 li div{
+    position: absolute;
+    width: 8.8rem;
+    height: 8.8rem;
+    background-color: #0081ff;
+    border-radius: 100%; 
+}
+.five2 li div h3{
+    margin-top: 2.4rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: white;
+}
+.five2 li p{
+    margin-top: 0.8rem;
+    margin-left: 10.2rem;
+    width: 22.4rem;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    color: #666666;
+}
+.five2 img{
+    position: absolute;
+    bottom: 0.4rem;
+    left: 4.1rem;
+    width: 0.6rem;
+}
+.five3{
+    position: relative;
+    height: 84.7rem;
+}
+.five3 ul{
+    position: relative;
+    margin-top: 3rem;
+}
+.five3 li{
+    position: absolute;
+    right: 22.5rem;
+    width: 12.6rem;
+    text-align: right;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #666666;
+}
+.five3 li:nth-child(even){
+    left: 22.5rem;
+    text-align: left;
+}
+.five3 li:nth-child(2){
+    top: 11.4rem;
+}
+.five3 li:nth-child(3){
+    top: 23.6rem;
+}
+.five3 li:nth-child(4){
+    top: 36.4rem;
+}
+.five3 li:nth-child(5){
+    top: 49.5rem;
+}
+.five3 li:nth-child(6){
+    top: 62.4rem;
+}
+.five3 img{
+    display: block;
+    position: absolute;
+    top: 9.3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20.5rem; 
+}

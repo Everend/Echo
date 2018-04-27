@@ -1,0 +1,166 @@
+header{
+    height: 23.6rem;
+    background-image: url(../img/header-charge.png);
+}
+header h1{
+    margin-top: 4.4rem;
+}
+.menu li.spread{
+    font-weight: bold;
+    color: white;
+}
+.menu li.charge{
+    color: white;
+}
+.pain{
+    height: 65.5rem;
+}
+.pain h2{
+    margin-top: 3.4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333333;
+}
+.pain ul{
+    margin: 2.9rem auto 0;
+    width: 31.8rem; 
+}
+.pain ul li{
+    margin-bottom: 3.4rem;
+    height: 6.2rem;
+    background: url(../img/charge-pain1.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.pain li:nth-child(2){
+    background-image: url(../img/charge-pain2.png);
+}
+.pain li:nth-child(3){
+    background-image: url(../img/charge-pain3.png);
+}
+.pain li:nth-child(4){
+    background-image: url(../img/charge-pain4.png);
+}
+.pain li:nth-child(5){
+    background-image: url(../img/charge-pain5.png);
+}
+.pain li:nth-child(6){
+    background-image: url(../img/charge-pain6.png);
+}
+.pain li h3{
+    margin-top: 0.4rem;
+    margin-left: 8.4rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+.pain li p{
+    margin-top: 0.4rem;
+    margin-left: 8.4rem;
+    width: 23.4rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+.ease{
+    height: 99rem;
+}
+.ease li{
+    position: relative;
+    width: 100%;
+    height: 16.5rem;
+    overflow: hidden;
+}
+.ease li:nth-child(odd){
+    background-color: #e6edf5;
+}
+.ease li h3, .ease li p{
+    position: relative;
+    z-index: 1;
+    margin-left: 3rem;
+}
+.ease li h3{
+    margin-top: 3.6rem;
+    font-size: 1.5rem;
+    color: #333333;
+}
+.ease li p{
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #666666;
+}
+.ease li:nth-child(even) h3, .ease li:nth-child(even) p{
+    margin-left: 21.1rem;
+}
+.ease li img{
+    position: absolute;
+}
+.ease li:nth-child(1) img{
+    top: 2.1rem;
+    right: 2rem;
+    width: 17.1rem;
+}
+.ease li:nth-child(2) img{
+    width: 18.9rem;
+}
+.ease li:nth-child(3) img{
+    width: 37.5rem;
+}
+.ease li:nth-child(4) img{
+    top: 0.5rem;
+    width: 18.8rem;
+}
+.ease li:nth-child(5) img{
+    bottom: 0;
+    right: 0;
+    width: 31.6rem;
+}
+.ease li:nth-child(6) img{
+    top: 0.4rem;
+    width: 20.5rem;
+}
+.price{
+    position: relative;
+    height: 32.6rem;
+    color: white;
+    background-color: #4b5ce9;
+}
+.price img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 23rem;
+}
+.price h3, .price h4, .price h5, .price p{
+    margin-left: 3rem;
+}
+.price h3, .price p{
+    font-weight: lighter;
+}
+.price h3{
+    margin-top: 2.8rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+}
+.price h4{
+    margin-top: 0.8rem;
+    font-size: 2rem;
+}
+.price h5{
+    margin-top: 0.4rem;
+    width: 18.8rem;
+    height: 2.4rem;
+    text-indent: 0.3rem;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #ff3800;
+    background-image: linear-gradient(90deg, white 2%, rgba(255,255,255,0) 100%);
+}
+.price p{
+    position: relative;
+    z-index: 1;
+    margin-top: 0.8rem;
+    line-height: 2.1rem;
+    font-size: 1.3rem;
+}
