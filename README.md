@@ -1,5 +1,5 @@
 ## New See
-#### 该项目为“杭州新视窗信息技术有限公司”[移动端官网](http://wei.new-see.com)的非官方版，地址为[https://everend.github.io/Echo/index.html](https://everend.github.io/Echo/index.html)，与官方版主要区别在于：
+#### 该项目为“杭州新视窗信息技术有限公司”[移动端官网](http://wei.new-see.com)的非官方版，地址为[点击这里](https://everend.github.io/Echo/index.html)，与官方版主要区别在于：
 * 移除 `菜单按钮` 与 `公司logo` 的悬浮样式；
 * `选项列表` 的悬浮位置与背景颜色有所改动；
 * 部分图片存在出入，请以官网为准；
