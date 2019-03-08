@@ -7,17 +7,15 @@
     $('.menu li').each(function(index){
         $(this).tap(function(){
             var filename = location.href.split('/').slice(-1)[0];
-            if(location.href.indexOf('file://') == 0){//本地
-                if(index !== 2 && filename !== arr[index] + '.html'){
-                    window.location.href = arr[index] + '.html';
-                }
-            }else{//服务器
-                if(index === 0 && filename !== ''){
-                    window.location.href = '/';
-                }else if(index !== 0 && index !== 2 && filename !== arr[index] + '.html'){
-                    window.location.href = arr[index] + '.html';
-                }
+            if(index !== 2 && filename !== arr[index] + '.html'){
+                window.location.href = arr[index] + '.html';
             }
+            //服务器
+            /* if(index === 0 && filename !== ''){
+                window.location.href = '/';
+            }else if(index !== 0 && index !== 2 && filename !== arr[index] + '.html'){
+                window.location.href = arr[index] + '.html';
+            } */
         });
     });
     //点击显示隐藏菜单
